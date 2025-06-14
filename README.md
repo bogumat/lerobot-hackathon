@@ -434,3 +434,14 @@ primaryClass={cs.RO}
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=huggingface/lerobot&type=Timeline)](https://star-history.com/#huggingface/lerobot&Timeline)
+
+## Notes to Matvey
+
+```
+python -m lerobot.teleoperate \
+    --robot.type=so100_follower_end_effector \
+    --robot.port=/dev/tty.usbmodem58FA0924911 \
+    --robot.id=black \
+    --teleop.type=keyboard_ee \
+    --teleop.id=blue
+```
